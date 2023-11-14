@@ -1,13 +1,15 @@
 import Layout from "@/components/layout/Layout";
 import React from "react";
 
-export default function Home() {
+const ContactPage = () => {
 	return (
 		<Layout>
 			<div className="flex flex-col h-full justify-center">
-				<h1>Lorem ipsum dolor sit amet</h1>
-				<h2>Hero subtitle</h2>
+				<h1 className="text-3xl w-1/2">Contact us title</h1>
+				<h2>Contact us intro</h2>
 			</div>
 		</Layout>
 	);
-}
+};
+
+export default ContactPage;

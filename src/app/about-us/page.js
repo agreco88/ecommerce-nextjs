@@ -1,13 +1,15 @@
 import Layout from "@/components/layout/Layout";
 import React from "react";
 
-export default function Home() {
+const AboutUsPage = () => {
 	return (
 		<Layout>
 			<div className="flex flex-col h-full justify-center">
-				<h1>Lorem ipsum dolor sit amet</h1>
-				<h2>Hero subtitle</h2>
+				<h1 className="text-3xl w-1/2">About us title</h1>
+				<h2>About us intro</h2>
 			</div>
 		</Layout>
 	);
-}
+};
+
+export default AboutUsPage;
