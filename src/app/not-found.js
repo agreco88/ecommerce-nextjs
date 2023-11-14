@@ -4,7 +4,7 @@ import Layout from "@/components/layout/Layout";
 import React from "react";
 import Button from "@/components/ui/Button";
 
-const ProductsPage = ({ params }) => {
+const ProductsPage = () => {
 	const router = useRouter();
 	return (
 		<Layout>
